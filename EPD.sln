@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dossier", "Dossier\Dossier.csproj", "{62FB1E7A-78B8-4AA8-BEAF-ADAF4E806A85}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dossier", "src\Dossier\Dossier.csproj", "{62FB1E7A-78B8-4AA8-BEAF-ADAF4E806A85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DossierTests", "DossierTests\DossierTests.csproj", "{923F8BC7-6AB2-4C19-B211-E42113B94044}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DossierTests", "src\DossierTests\DossierTests.csproj", "{923F8BC7-6AB2-4C19-B211-E42113B94044}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
