@@ -14,5 +14,13 @@ namespace DossierTests
         {
 			Assert.NotNull(Subject);
         }
+
+
+		[Fact]
+        public void WhenExecutingNull_ItShouldReturnZero()
+        {
+			var expected = 0;
+			Assert.Equal(expected, Subject.Execute());
+        }
     }
 }

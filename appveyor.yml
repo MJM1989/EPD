@@ -2,7 +2,7 @@ version: '1.0.{build}'
 image: Visual Studio 2017
 branches:
   only:
-  - master
+  - develop
 init:
   # Good practise, because Windows line endings are different from Unix/Linux ones
   - cmd: git config --global core.autocrlf true
@@ -19,7 +19,7 @@ build_script:
 after_build:
   # For once the build has completed
 artifacts:
- - path: '\src\bin\Debug\netcoreapp1.1\publish'
+ - path: '\src\bin\Debug\netcoreapp3.0\publish'
    name: WebSite
    type: WebDeployPackage
 clone_depth: 1
