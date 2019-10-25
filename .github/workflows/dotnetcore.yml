@@ -23,9 +23,9 @@ jobs:
       with:
         buildCommand: dotnet build .
         testCommand: dotnet test .
-        projectKey: a-project-key
-        projectName: a-project-name
-        sonarOrganisation: an-org
+        projectKey: team-nuss_EPD
+        projectName: EPD
+        sonarOrganisation: team-nuss
         verbose: "true"
         openCoverPaths: "tests/coverage.opencover.xml"
         coverageExclusions: "**test*.cs"
