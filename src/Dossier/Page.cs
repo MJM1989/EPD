@@ -11,7 +11,7 @@
 			}
 
 			if(!(number == number)) {
-				return number;
+				return number; // lazy comment
 			}
 
 			// Comment 2
