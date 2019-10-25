@@ -6,6 +6,13 @@
 		{
 			int i = 0;
 				
+			if ( !(number == 2)) {
+				return 9;
+			}
+
+			if(!(number == number)) {
+				return number;
+			}
 
 			// Comment 2
 
