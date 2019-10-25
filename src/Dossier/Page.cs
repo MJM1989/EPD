@@ -2,10 +2,9 @@
 {
 	public class Page
 	{
-		public int Execute()
+		public int Execute(int number)
 		{
-			// Test
-			return 0;
+			return number;
 		}
 	}
 }

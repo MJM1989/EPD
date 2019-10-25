@@ -17,10 +17,17 @@ namespace DossierTests
 
 
 		[Fact]
-        public void WhenExecutingNull_ItShouldReturnZero()
+        public void WhenExecutingZero_ItShouldReturnZero()
         {
 			var expected = 0;
-			Assert.Equal(expected, Subject.Execute());
+			Assert.Equal(expected, Subject.Execute(0));
+        }
+
+		[Fact]
+        public void WhenExecutingOne_ItShouldReturnOne()
+        {
+			var expected = 1;
+			Assert.Equal(expected, Subject.Execute(1));
         }
     }
 }
